@@ -14,10 +14,10 @@
                     Complete Sales, Inventory, POS & Reporting solution that scales with your business. Everything you need in one powerful platform.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 mb-10">
-                    <x-button href="{{ route('register') }}" variant="primary" size="lg">
+                    <label for="modal-register" class="inline-flex items-center justify-center font-medium rounded-md focus:outline-none focus:ring-4 text-sm px-6 py-3 btn-jtech-primary focus:ring-4 focus:ring-indigo-300 cursor-pointer">
                         Start 14-Day Free Trial
-                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
-                    </x-button>
+                        <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+                    </label>
 
                     <x-button href="#demo" variant="outline" size="lg" as="a">
                         <svg class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

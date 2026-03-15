@@ -7,7 +7,7 @@
         </div>
         <div class="flex items-center justify-center gap-4 mb-12">
             <span class="text-sm font-medium text-gray-900">Monthly</span>
-            <button type="button" onclick="toggleBilling()" class="relative w-14 h-7 rounded-full p-1 transition-colors duration-200 bg-gray-300" id="billing-toggle" aria-label="Toggle yearly billing" aria-pressed="false">
+            <button type="button" class="relative w-14 h-7 rounded-full p-1 transition-colors duration-200 bg-gray-300" id="billing-toggle" aria-label="Toggle yearly billing" aria-pressed="false">
                 <span id="billing-pill" class="absolute left-1 top-1 w-5 h-5 bg-white rounded-full shadow-md transition-transform duration-200 ease-out translate-x-0"></span>
             </button>
             <span class="text-sm font-medium text-gray-900">Yearly <span class="text-indigo-600">(Save 20%)</span></span>

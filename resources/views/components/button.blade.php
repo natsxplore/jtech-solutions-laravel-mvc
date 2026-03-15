@@ -10,9 +10,9 @@
     $base = 'inline-flex items-center justify-center font-medium rounded-md focus:outline-none focus:ring-4 text-sm';
 
     $variants = [
-        'primary' => 'btn-primary focus:ring-4 focus:ring-indigo-300',
-        'secondary' => 'btn-secondary focus:ring-4 focus:ring-gray-300',
-        'outline' => 'btn-outline focus:ring-4 focus:ring-gray-200',
+        'primary' => 'btn-jtech-primary focus:ring-4 focus:ring-indigo-300',
+        'secondary' => 'btn-jtech-secondary focus:ring-4 focus:ring-gray-300',
+        'outline' => 'btn-jtech-outline focus:ring-4 focus:ring-gray-200',
     ];
 
     $sizes = [

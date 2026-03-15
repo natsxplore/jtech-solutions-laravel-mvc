@@ -79,3 +79,17 @@
     background-color: var(--btn-primary);
     border-color: var(--btn-primary);
 }
+
+/* Reusable: inputs and checkboxes use primary color on focus (no extra border) */
+.input-focus-primary:focus {
+    outline: none;
+    border-color: var(--btn-primary);
+    box-shadow: 0 0 0 1px var(--btn-primary);
+}
+.checkbox-focus-primary:focus {
+    outline: none;
+}
+.checkbox-focus-primary:focus-visible {
+    outline: 2px solid var(--btn-primary);
+    outline-offset: 2px;
+}
