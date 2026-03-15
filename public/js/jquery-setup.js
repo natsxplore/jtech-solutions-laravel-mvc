@@ -65,7 +65,10 @@ $(document).ready(function() {
                 border: 'none',
                 padding: '0',
                 backgroundColor: 'transparent',
-                width: 'auto'
+                width: 'auto',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)'
             },
             overlayCSS: {
                 backgroundColor: '#000',

@@ -11,6 +11,12 @@ $(document).ready(function() {
             data: formData,
             processData: false,
             contentType: false,
+            // beforeSend: function(){
+            //     blockUI('Please waisdat...');
+            // },
+            // complete: function(){
+            //     unblockUI();
+            // },
             success: function (response) {
                 if(response.status){
                     window.location.href = response.redirect;
