@@ -1,33 +1,19 @@
 @extends('layouts.guest')
 
-@section('title', 'Welcome | ' . config('app.name', 'JTech Solution'))
+@section('title', 'JTech Solution — Enterprise Retail Management for Small Business')
+@section('meta_description', 'Complete Sales, Inventory, POS & Reporting solution that scales with your business. Trusted by 500+ growing businesses.')
 
 @section('content')
-    <div class="space-y-6">
-        <div>
-            <p class="text-xs font-semibold uppercase tracking-wide text-indigo-500 mb-2">Welcome</p>
-            <h2 class="text-2xl font-bold text-gray-900 mb-2">
-                Smart retail & inventory insights in one dashboard.
-            </h2>
-            <p class="text-sm text-gray-600">
-                Streamline your sales, inventory, and reports with a modern Laravel-powered back office.
-            </p>
-        </div>
 
-        <div class="flex flex-col sm:flex-row gap-3">
-            <x-button as="a" :href="route('login')" variant="primary">
-                Log in
-            </x-button>
-            <x-button as="a" :href="route('register')" variant="outline">
-                Create an account
-            </x-button>
-        </div>
+<x-landing_page.navbar />
+<x-landing_page.hero />
+<x-landing_page.features />
+<x-landing_page.pricing />
+{{-- <x-landing_page.stats /> --}}
+{{-- <x-landing_page.testimonials /> --}}
+<x-landing_page.faq />
+{{-- <x-landing_page.cta /> --}}
+<x-landing_page.footer />
+<x-landing_page.scripts />
 
-        <div class="border-t border-gray-100 pt-4">
-            <p class="text-xs text-gray-500">
-                Demo links only – hook these pages up to your auth logic when ready.
-            </p>
-        </div>
-    </div>
 @endsection
-

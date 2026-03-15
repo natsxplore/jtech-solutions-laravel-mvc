@@ -7,7 +7,7 @@
 ])
 
 @php
-    $base = 'inline-flex items-center justify-center font-medium rounded-lg focus:outline-none focus:ring-4 text-sm';
+    $base = 'inline-flex items-center justify-center font-medium rounded-md focus:outline-none focus:ring-4 text-sm';
 
     $variants = [
         'primary' => 'btn-primary focus:ring-4 focus:ring-indigo-300',
